@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-09-17 13:41:38.269643",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "experience",
+  "column_break_sovn",
+  "skills",
+  "applied_role"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Int",
+   "label": "Experience"
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Data",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "applied_role",
+   "fieldtype": "Select",
+   "label": "Applied Role",
+   "options": "\nFront-end developer\nBack-end developer\nFull-stack Developer\nJunior Engineer\nData Analyst\nGraduate Trainee Engineer\nData Intern"
+  },
+  {
+   "fieldname": "column_break_sovn",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-17 19:18:50.102898",
+ "modified_by": "Administrator",
+ "module": "Interview Management System",
+ "name": "Candidate data",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
